@@ -1,0 +1,2 @@
+illegal.o: illegal.cc ../include/lib.h
+../include/lib.h:

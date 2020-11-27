@@ -21,9 +21,6 @@
 /* Define if -lXext has support for the DBE X11 protocol extension. */
 #undef HAVE_DBE_SUPPORT
 
-/* Define to 1 if you have the <dlfcn.h> header file. */
-#undef HAVE_DLFCN_H
-
 /* Define to 1 if you have the `erf' function. */
 #undef HAVE_ERF
 
@@ -137,10 +134,6 @@
 
 /* Define to request PNG support (requires HAVE_LIBPNG, HAVE_PNG_H). */
 #undef INCLUDE_PNG_SUPPORT
-
-/* Define to the sub-directory in which libtool stores uninstalled libraries.
-   */
-#undef LT_OBJDIR
 
 /* Name of package */
 #undef PACKAGE

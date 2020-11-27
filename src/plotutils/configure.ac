@@ -2,6 +2,8 @@
 # Copyright (C) 1989-2020 Free Software Foundation, Inc.
 # Process this file with autoconf to produce a configure script.
 
+LT_INIT
+AC_PROG_RANLIB
 AC_PREREQ(2.59)
 AC_INIT([plotutils],[2.6], [bug-plotutils@gnu.org])
 AC_CONFIG_SRCDIR(graph/graph.c)

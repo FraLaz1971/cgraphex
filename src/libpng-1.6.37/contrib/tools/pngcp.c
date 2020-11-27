@@ -154,6 +154,12 @@ typedef enum
 #define RESULT_STRICT(r)   (((r) & ~((1U<<WARNINGS)-1)) == 0)
 #define RESULT_RELAXED(r)  (((r) & ~((1U<<ERRORS)-1)) == 0)
 
+/* from unistd.h posix */
+#define F_OK    0
+#define R_OK    4
+#define W_OK    2
+/* #define X_OK    1 */
+
 /* OPTION DEFINITIONS */
 static const char range_lo[] = "low";
 static const char range_hi[] = "high";

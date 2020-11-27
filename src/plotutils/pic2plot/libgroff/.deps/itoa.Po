@@ -1,0 +1,2 @@
+itoa.o: itoa.cc ../include/lib.h
+../include/lib.h:
