@@ -46,10 +46,10 @@ then
                 cd $OLDPWD
             done;
             cd graph
-            $CC  -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/$MINGW_BASE/include -Iinclude -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/include -I../include -DMINGW=1  -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/lib -L../libplot/.libs -o graph.exe graph-graph.o graph-misc.o graph-linemode.o graph-reader.o graph-plotter.o graph-fontlist.o ../lib/libcommon.a ../libplot/.libs/libplot.a -lplot -lm -lpng 2>&1 | tee build_graph_$(date --iso).log
+            $CC  -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/$MINGW_BASE/include -Iinclude -I../../libpng/include -I../../libpng/include/libpng16 -I../include -I../include -DMINGW=1  -L../../libpng/lib -L../lib -L../libplot/.libs -o graph.exe graph-graph.o graph-misc.o graph-linemode.o graph-reader.o graph-plotter.o graph-fontlist.o ../lib/libcommon.a ../libplot/.libs/libplot.a -lplot -lm -lpng 2>&1 | tee build_graph_$(date --iso).log
             cd $OLDPWD
             cd hersheydemo
-            $CC  -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/$MINGW_BASE/include -Iinclude -I../../libpng/include -I../../libpng/include/libpng16 -I../include -I../include -DMINGW=1  -L../../libpng/lib -L../lib -L../libplot/.libs -o hersheydemo.exe hersheydemo-hersheydemo.o ../lib/libcommon.a ../libplot/.libs/libplot.a -lplot -lm -lpng 2>&1 | tee build_hersheydemo_$(date --iso).log
+            $CC  -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/$MINGW_BASE/include -Iinclude -I../../libpng/include -I../../libpng/include/libpng16 -I../include -I../include -DMINGW=1  -L../../libpng/lib -L../lib -L../libplot/.libs -o hersheydemo.exe hersheydemo-hersheydemo.o ../lib/libcommon.a ../libplot/.libs/libplot.a -lplot -lm -lpng
             cd $OLDPWD
             mingw32-make install | tee install_pu_$(date --iso).log
         elif [[ $arch == x86_64 ]]

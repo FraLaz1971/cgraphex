@@ -159,7 +159,7 @@ volatile const char * MAGIC_EXE = "%%%MAGIC EXE variable%%%";
 const char * LIB_PATH_VARNAME = "PATH";
 const char * LIB_PATH_VALUE   = "";
 const char * EXE_PATH_VARNAME = "PATH";
-const char * EXE_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\bin;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\lib;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\bin;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\libplot\\.libs;";
+const char * EXE_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\bin;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\lib;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\bin;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\libplot\\.libs;";
 const char * TARGET_PROGRAM_NAME = "ode.exe"; /* hopefully, no .exe */
 
 #define LTWRAPPER_OPTION_PREFIX         "--lt-"
@@ -1022,11 +1022,10 @@ void lt_dump_script (FILE* f)
   fputs ("\n", f);
   fputs ("  if test -f \"$progdir/$program\"; then\n", f);
   fputs ("    # Add the dll search path components to the executable PATH\n", f);
-  fputs ("    PATH=/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib:", f);
-  fputs ("/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/bin:/home/ser", f);
-  fputs ("ena/projects/2020-11-27/cgraphex/src/plotutils/lib:/home/serena/projects/2020-1", f);
-  fputs ("1-27/cgraphex/src/plotutils/bin:/home/serena/projects/2020-11-27/cgraphex/src/p", f);
-  fputs ("lotutils/libplot/.libs:$PATH\n", f);
+  fputs ("    PATH=/home/serena/projects/cgraphex/src/plotutils/../libpng/lib:/home/seren", f);
+  fputs ("a/projects/cgraphex/src/plotutils/../libpng/bin:/home/serena/projects/cgraphex/", f);
+  fputs ("src/plotutils/lib:/home/serena/projects/cgraphex/src/plotutils/bin:/home/serena", f);
+  fputs ("/projects/cgraphex/src/plotutils/libplot/.libs:$PATH\n", f);
   fputs ("\n", f);
   fputs ("    if test \"$libtool_execute_magic\" != \"%%%MAGIC variable%%%\"; then\n", f);
   fputs ("      # Run the actual program with our arguments.\n", f);

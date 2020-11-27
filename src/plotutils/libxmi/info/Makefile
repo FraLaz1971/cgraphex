@@ -177,24 +177,24 @@ am__uninstall_files_from_dir = { \
   }
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/missing aclocal-1.13
+ACLOCAL = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/missing aclocal-1.13
 ALLOCA = 
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/missing autoconf
-AUTOHEADER = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/missing autoheader
-AUTOMAKE = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/missing automake-1.13
+AUTOCONF = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/missing autoconf
+AUTOHEADER = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/missing autoheader
+AUTOMAKE = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/missing automake-1.13
 AWK = gawk
 CC = i686-w64-mingw32-gcc
 CCDEPMODE = depmode=gcc3
-CFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/mingw32/include -Iinclude -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/include -I../include -DMINGW=1
+CFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/mingw32/include -Iinclude -I//home/serena/projects/cgraphex/src/plotutils/../libpng/include -I//home/serena/projects/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/cgraphex/src/plotutils/include -I../include -DMINGW=1
 CPP = i686-w64-mingw32-gcc -E
-CPPFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT  -DHAVE_LIBPNG=1  -I/mingw32/include -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/ -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/libpng16  -Iinclude -I../include -DMINGW=1 -DGNUC=1 
+CPPFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT  -DHAVE_LIBPNG=1  -I/mingw32/include -I/home/serena/projects/cgraphex/src/plotutils/../libpng/include/ -I/home/serena/projects/cgraphex/src/plotutils/../libpng/include/libpng16  -Iinclude -I../include -DMINGW=1 -DGNUC=1 
 CXX = i686-w64-mingw32-g++
 CXXCPP = i686-w64-mingw32-g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/mingw32/include -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/include -Iinclude -I../include -DMINGW=1 
+CXXFLAGS = -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/mingw32/include -I//home/serena/projects/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/cgraphex/src/plotutils/include -Iinclude -I../include -DMINGW=1 
 CYGPATH_W = cygpath -w
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -214,7 +214,7 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LD = C:/msys32/mingw32/i686-w64-mingw32/bin/ld.exe
-LDFLAGS = -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/lib -L../libplot/.libs
+LDFLAGS = -L/home/serena/projects/cgraphex/src/plotutils/../libpng/lib -L/home/serena/projects/cgraphex/src/plotutils/lib -L../libplot/.libs
 LEX = flex
 LEXLIB = 
 LEX_OUTPUT_ROOT = lex.yy
@@ -224,7 +224,7 @@ LIBTOOL = $(SHELL) $(top_builddir)/libtool
 LIPO = 
 LN_S = cp -pR
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/missing makeinfo
+MAKEINFO = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/missing makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /usr/bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -256,10 +256,10 @@ X_PRE_LIBS =
 X_TOOLKIT_LIBS = -lXaw -lXmu -lXt
 YACC = yacc
 YFLAGS = 
-abs_builddir = /home/serena/projects/2020-11-27/cgraphex/src/plotutils/libxmi/info
-abs_srcdir = /home/serena/projects/2020-11-27/cgraphex/src/plotutils/libxmi/info
-abs_top_builddir = /home/serena/projects/2020-11-27/cgraphex/src/plotutils
-abs_top_srcdir = /home/serena/projects/2020-11-27/cgraphex/src/plotutils
+abs_builddir = /home/serena/projects/cgraphex/src/plotutils/libxmi/info
+abs_srcdir = /home/serena/projects/cgraphex/src/plotutils/libxmi/info
+abs_top_builddir = /home/serena/projects/cgraphex/src/plotutils
+abs_top_srcdir = /home/serena/projects/cgraphex/src/plotutils
 ac_ct_AR = ar
 ac_ct_CC = 
 ac_ct_CXX = 
@@ -289,7 +289,7 @@ host_vendor = w64
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/serena/projects/2020-11-27/cgraphex/src/plotutils/install-sh
+install_sh = ${SHELL} /home/serena/projects/cgraphex/src/plotutils/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -298,7 +298,7 @@ mandir = ${datarootdir}/man
 mkdir_p = $(MKDIR_P)
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/serena/projects/2020-11-27/cgraphex/src/plotutils/../plotutils27
+prefix = /home/serena/projects/cgraphex/src/plotutils/../plotutils27
 program_transform_name = s,x,x,
 ps_fonts_in_pcl = 0
 psdir = ${docdir}

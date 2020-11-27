@@ -157,9 +157,9 @@ char **prepare_spawn (char **argv);
 void lt_dump_script (FILE *f);
 volatile const char * MAGIC_EXE = "%%%MAGIC EXE variable%%%";
 const char * LIB_PATH_VARNAME = "PATH";
-const char * LIB_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng-1.6.37\\..\\libpng\\lib;";
+const char * LIB_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng-1.6.37\\..\\libpng\\lib;";
 const char * EXE_PATH_VARNAME = "PATH";
-const char * EXE_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\bin;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\lib;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\bin;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\plotutils\\libplot\\.libs;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\2020-11-27\\cgraphex\\src\\libpng\\bin;";
+const char * EXE_PATH_VALUE   = "C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\bin;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\lib;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\bin;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\plotutils\\libplot\\.libs;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\lib;C:\\msys32\\home\\serena\\projects\\cgraphex\\src\\libpng\\bin;";
 const char * TARGET_PROGRAM_NAME = "plotfont.exe"; /* hopefully, no .exe */
 
 #define LTWRAPPER_OPTION_PREFIX         "--lt-"
@@ -868,8 +868,8 @@ void lt_dump_script (FILE* f)
   fputs ("if test \"$libtool_install_magic\" = \"%%%MAGIC variable%%%\"; then\n", f);
   fputs ("  # install mode needs the following variables:\n", f);
   fputs ("  generated_by_libtool_version='2.4.2'\n", f);
-  fputs ("  notinst_deplibs=' /home/serena/projects/2020-11-27/cgraphex/src/plotutils/../", f);
-  fputs ("libpng/lib/libpng.la'\n", f);
+  fputs ("  notinst_deplibs=' /home/serena/projects/cgraphex/src/plotutils/../libpng/lib/", f);
+  fputs ("libpng.la'\n", f);
   fputs ("else\n", f);
   fputs ("  # When we are sourced in execute mode, $file and $ECHO are already set.\n", f);
   fputs ("  if test \"$libtool_execute_magic\" != \"%%%MAGIC variable%%%\"; then\n", f);
@@ -1025,17 +1025,15 @@ void lt_dump_script (FILE* f)
   fputs ("\n", f);
   fputs ("  if test -f \"$progdir/$program\"; then\n", f);
   fputs ("    # Add the dll search path components to the executable PATH\n", f);
-  fputs ("    PATH=/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib:", f);
-  fputs ("/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/bin:/home/ser", f);
-  fputs ("ena/projects/2020-11-27/cgraphex/src/plotutils/lib:/home/serena/projects/2020-1", f);
-  fputs ("1-27/cgraphex/src/plotutils/bin:/home/serena/projects/2020-11-27/cgraphex/src/p", f);
-  fputs ("lotutils/libplot/.libs:/home/serena/projects/2020-11-27/cgraphex/src/libpng-1.6", f);
-  fputs (".37/../libpng/lib:/home/serena/projects/2020-11-27/cgraphex/src/libpng-1.6.37/.", f);
-  fputs ("./libpng/bin:$PATH\n", f);
+  fputs ("    PATH=/home/serena/projects/cgraphex/src/plotutils/../libpng/lib:/home/seren", f);
+  fputs ("a/projects/cgraphex/src/plotutils/../libpng/bin:/home/serena/projects/cgraphex/", f);
+  fputs ("src/plotutils/lib:/home/serena/projects/cgraphex/src/plotutils/bin:/home/serena", f);
+  fputs ("/projects/cgraphex/src/plotutils/libplot/.libs:/home/serena/projects/cgraphex/s", f);
+  fputs ("rc/libpng-1.6.37/../libpng/lib:/home/serena/projects/cgraphex/src/libpng-1.6.37", f);
+  fputs ("/../libpng/bin:$PATH\n", f);
   fputs ("\n", f);
   fputs ("    # Add our own library path to PATH\n", f);
-  fputs ("    PATH=\"/home/serena/projects/2020-11-27/cgraphex/src/libpng-1.6.37/../libpng", f);
-  fputs ("/lib:$PATH\"\n", f);
+  fputs ("    PATH=\"/home/serena/projects/cgraphex/src/libpng-1.6.37/../libpng/lib:$PATH\"\n", f);
   fputs ("\n", f);
   fputs ("    # Some systems cannot cope with colon-terminated PATH\n", f);
   fputs ("    # The second colon is a workaround for a bug in BeOS R4 sed\n", f);

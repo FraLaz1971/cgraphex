@@ -188,7 +188,7 @@ func_exec_program ()
 
   if test -f "$progdir/$program"; then
     # Add the dll search path components to the executable PATH
-    PATH=/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib:/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/bin:/home/serena/projects/2020-11-27/cgraphex/src/plotutils/lib:/home/serena/projects/2020-11-27/cgraphex/src/plotutils/bin:/home/serena/projects/2020-11-27/cgraphex/src/plotutils/libplot/.libs:$PATH
+    PATH=/home/serena/projects/cgraphex/src/plotutils/../libpng/lib:/home/serena/projects/cgraphex/src/plotutils/../libpng/bin:/home/serena/projects/cgraphex/src/plotutils/lib:/home/serena/projects/cgraphex/src/plotutils/bin:/home/serena/projects/cgraphex/src/plotutils/libplot/.libs:$PATH
 
     if test "$libtool_execute_magic" != "%%%MAGIC variable%%%"; then
       # Run the actual program with our arguments.

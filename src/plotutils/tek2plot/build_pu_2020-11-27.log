@@ -1,11 +1,11 @@
 cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
 cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
 Making all in teksamples
-mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/tek2plot/teksamples'
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/cgraphex/src/plotutils/tek2plot/teksamples'
 mingw32-make[1]: Nothing to be done for 'all'.
-mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/tek2plot/teksamples'
-mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/tek2plot'
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/cgraphex/src/plotutils/tek2plot/teksamples'
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/cgraphex/src/plotutils/tek2plot'
 cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
 cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
 mingw32-make[1]: Nothing to be done for 'all-am'.
-mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/tek2plot'
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/cgraphex/src/plotutils/tek2plot'
