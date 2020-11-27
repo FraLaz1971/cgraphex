@@ -1,1 +1,3 @@
-mingw32-make: *** No targets.  Stop.
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+mingw32-make: Nothing to be done for 'all'.

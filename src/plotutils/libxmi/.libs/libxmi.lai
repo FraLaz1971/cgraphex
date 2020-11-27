@@ -17,7 +17,7 @@ old_library='libxmi.a'
 inherited_linker_flags=''
 
 # Libraries that this one depends upon.
-dependency_libs=' -L/home/serena/projects/cgraphex/src/plotutils/../libpng/lib -L../libplot/.libs /home/serena/projects/cgraphex/src/plotutils/../plotutils27/lib/libplot.la /home/serena/projects/cgraphex/src/plotutils/../plotutils27/lib/libplot.la /home/serena/projects/cgraphex/src/libpng-1.6.37/../libpng/lib/libpng.la -lz'
+dependency_libs=' -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/lib -L../libplot/.libs /home/serena/projects/2020-11-27/cgraphex/src/plotutils/../plotutils27/lib/libplot.la -L/home/serena/projects/2020-11-27/cgraphex/src/libpng/lib -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/libplot/.libs -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils27 -L/mingw32/lib -L/mingw32/bin -L/c/msys32/mingw32/lib /mingw32/lib/libplot.la /mingw32/lib/libpng.la /home/serena/projects/2020-11-27/cgraphex/src/libpng-1.6.37/../libpng/lib/libpng.la -lz'
 
 # Names of additional weak libraries provided by this library
 weak_library_names=''
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/serena/projects/cgraphex/src/plotutils/../plotutils27/lib'
+libdir='/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../plotutils27/lib'

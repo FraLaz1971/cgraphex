@@ -1,1 +1,19 @@
-mingw32-make: *** No targets.  Stop.
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+Making all in doc
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/doc'
+mingw32-make[1]: Nothing to be done for 'all'.
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/doc'
+Making all in include
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/include'
+mingw32-make[1]: Nothing to be done for 'all'.
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/include'
+Making all in libgroff
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/libgroff'
+mingw32-make[1]: Nothing to be done for 'all'.
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot/libgroff'
+mingw32-make[1]: Entering directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot'
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+cd .. && C:/msys32/mingw32/bin/mingw32-make.exe  am--refresh
+mingw32-make[1]: Nothing to be done for 'all-am'.
+mingw32-make[1]: Leaving directory 'C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/plotutils/pic2plot'

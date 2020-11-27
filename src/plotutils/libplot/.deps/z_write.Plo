@@ -26,9 +26,9 @@ z_write.lo: z_write.c ../include/sys-defines.h ../config.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/string.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h extern.h \
  ../include/plotter.h xmi.h \
- C:/msys32/home/serena/projects/cgraphex/src/libpng/include/png.h \
- C:/msys32/home/serena/projects/cgraphex/src/libpng/include/pnglibconf.h \
- C:/msys32/home/serena/projects/cgraphex/src/libpng/include/pngconf.h \
+ C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/png.h \
+ C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/pnglibconf.h \
+ C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/pngconf.h \
  C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/10.2.0/include/stddef.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/stddef.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/setjmp.h \
@@ -37,8 +37,8 @@ z_write.lo: z_write.c ../include/sys-defines.h ../config.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/sys/timeb.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/pthread_time.h \
- C:/msys32/home/serena/projects/cgraphex/src/libpng/include/zlib.h \
- C:/msys32/home/serena/projects/cgraphex/src/libpng/include/zconf.h \
+ C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/zlib.h \
+ C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/zconf.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/sys/types.h \
  C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/10.2.0/include/stdarg.h \
  C:/msys32/mingw32/i686-w64-mingw32/include/stdarg.h \
@@ -82,9 +82,9 @@ C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/string_s.h:
 extern.h:
 ../include/plotter.h:
 xmi.h:
-C:/msys32/home/serena/projects/cgraphex/src/libpng/include/png.h:
-C:/msys32/home/serena/projects/cgraphex/src/libpng/include/pnglibconf.h:
-C:/msys32/home/serena/projects/cgraphex/src/libpng/include/pngconf.h:
+C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/png.h:
+C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/pnglibconf.h:
+C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/pngconf.h:
 C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/10.2.0/include/stddef.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/stddef.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/setjmp.h:
@@ -93,8 +93,8 @@ C:/msys32/mingw32/i686-w64-mingw32/include/_timeval.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/sys/timeb.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/pthread_time.h:
-C:/msys32/home/serena/projects/cgraphex/src/libpng/include/zlib.h:
-C:/msys32/home/serena/projects/cgraphex/src/libpng/include/zconf.h:
+C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/zlib.h:
+C:/msys32/home/serena/projects/2020-11-27/cgraphex/src/libpng/include/zconf.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/sys/types.h:
 C:/msys32/mingw32/lib/gcc/i686-w64-mingw32/10.2.0/include/stdarg.h:
 C:/msys32/mingw32/i686-w64-mingw32/include/stdarg.h:

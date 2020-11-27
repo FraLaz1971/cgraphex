@@ -1,0 +1,6 @@
+i686-w64-mingw32-gcc  -DDEBUG=1 -DPNG_PTR=1 -DINCLUDE_PNG_SUPPORT=1 -DHAVE_LIBPNG=1  -I/mingw32/include -Iinclude -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include -I//home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/include/libpng16 -I/home/serena/projects/2020-11-27/cgraphex/src/plotutils/include -I../include -DMINGW=1  -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/../libpng/lib -L/home/serena/projects/2020-11-27/cgraphex/src/plotutils/lib -L../libplot/.libs -o hersheydemo.exe hersheydemo-hersheydemo.o ../lib/libcommon.a ../libplot/.libs/libplot.a -lplot -lm -lpng
+C:/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.2.0/../../../../i686-w64-mingw32/bin/ld.exe: ../libplot/.libs/libplot.a(z_write.o):z_write.c:(.text+0xbe): undefined reference to `png_longjmp'
+C:/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.2.0/../../../../i686-w64-mingw32/bin/ld.exe: ../libplot/.libs/libplot.a(z_write.o):z_write.c:(.text+0x240): undefined reference to `png_set_longjmp_fn'
+C:/msys32/mingw32/bin/../lib/gcc/i686-w64-mingw32/10.2.0/../../../../i686-w64-mingw32/bin/ld.exe: ../libplot/.libs/libplot.a(z_write.o):z_write.c:(.text+0xae8): undefined reference to `png_set_longjmp_fn'
+collect2.exe: error: ld returned 1 exit status
+mingw32-make: *** [Makefile:354: hersheydemo.exe] Error 1
