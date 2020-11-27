@@ -1,4 +1,4 @@
-cd src/cfitsio
-make distclean
+cd src/plotutils
+make clean
 cd $OLDPWD
 
